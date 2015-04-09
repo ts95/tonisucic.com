@@ -1,0 +1,24 @@
+body {
+	height: 50vh;
+}
+
+#title {
+	color: #444;
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 25%;
+}
+
+.translucent-dot {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: red;
+	pointer-events: none;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
