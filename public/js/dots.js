@@ -67,17 +67,12 @@ var DotGenerator = (function($) {
 			return { x: x, y: y };
 		});
 
-		while (true) {
-			var tooClose = dotVecs.filter(function(index, dotVec) {
-				return distanceBetween({ x: x, y: y }, dotVec) < r2 * 1.5;
-			}).length > 0;
-			if (tooClose) {
-				x = randX();
-				y = randY();
-				continue;
-			} else {
-				break;
-			}
+		var closeDotVecs = dotVecs.filter(function(index, dotVec) {
+			return distanceBetween({ x: x, y: y }, dotVec) < r2 * 1.5;
+		});
+
+		if (closeDotVecs.length > 0) {
+			return;
 		}
 
 		var $dot = $('<div>');
