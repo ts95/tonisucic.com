@@ -1,6 +1,4 @@
 $(function() {
-	var baseInterval = 0.5;
-
-	var dotGenerator = new DotGenerator(baseInterval, $('body'));
+	var dotGenerator = new DotGenerator(0.5, $('body'));
 	dotGenerator.generateDots();
 });
