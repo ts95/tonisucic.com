@@ -44,6 +44,14 @@ body {
 	padding-bottom: 5vh;
 }
 
+@media screen and (max-width: 768px) {
+	#about {
+		height: inherit;
+		padding-top: inherit;
+		padding-bottom: inherit;
+	}
+}
+
 /* images */
 #img-desk {
 	margin-top: 50px;
