@@ -6,17 +6,41 @@
 	<title>tonisucic.com</title>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300">
-	<link rel="stylesheet" href="/css/normalize.css">
-	<link rel="stylesheet" href="/css/skeleton.css">
+	<link rel="stylesheet" href="/css/skyblue.css">
 	<link rel="stylesheet" href="/css/dots.css">
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 	<div class="container">
-		<a href="https://github.com/ts95" target="_blank" class="github-img">
-			<img src="/img/github.png">
-		</a>
-		<h1 id="title">tonisucic.com</h1>
+		<nav class="row navbar">
+			<div class="col sm-4">
+				<span class="brand">tonisucic.com</span>
+			</div>	
+			<div class="col sm-8 navbar-links">
+				<a href="#">Home</a>
+				<a href="#about">About</a>
+			</div>
+		</nav>
+
+		<div class="content">
+			<div class="row" id="home">
+				<h1>Toni Sucic</h1>
+				<p>Programmer, web developer, student</p>
+			</div>
+			<div class="row" id="about">
+				<div class="col md-6">
+					<h1>About me</h1>
+					<p>I'm a 20 year old student at Gjøvik University College, where I study web development.</p>
+					<p>My first programming encounter was back when I was 16 years old. It started with Python, then Java, then C# and soon enough I was hooked on trying out all sorts of technologies. By the time I was 18 I had experimented with many mainstream languages and frameworks. Nowadays I have directed my focus towards web development, where I prefer to work with Node.js or a PHP framework.</p>
+					<p>If you're interested in collaborating with me or hiring me you can send me an email at <a href="mailto:toni.sucic@icloud.com">toni.sucic@icloud.com</a>.</p>
+					<p>You can see some of my random projects on <a href="https://github.com/ts95">my GitHub page</a>.</p>
+				</div>
+				<div class="col md-6">
+					<img src="/img/desk.jpg" id="img-desk">
+				</div>
+			</div>
+			<div class="row copyright">Toni Sucic &copy; 2015</div>
+		</div>
 	</div>
 
 	<script src="/js/jquery.min.js"></script>

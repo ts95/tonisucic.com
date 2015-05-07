@@ -1,23 +1,50 @@
 body {
-	height: 50vh;
 }
 
-.container {
-	margin-top: 20%;
+.navbar {
+	font-size: 1.5rem;
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
 }
 
-#title {
-	color: #444;
-	font-size: 2.5em;
+.navbar,
+.content {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.navbar-links {
+	text-align: right;
+}
+
+.navbar-links a {
+	margin-left: 25px;
+}
+
+.navbar-links a:hover {
+}
+
+.copyright {
+	color: #777;
+	padding: 25px;
 	text-align: center;
-	text-shadow: 0 0 8px #fff;
-	z-index: 1;
 }
 
-.github-img,
-.github-img > img {
-	width: 100px;
-	margin: 0 auto;
-	display: block;
-	z-index: 1;
+#home {
+	height: 80vh;
+	text-align: center;
+	padding: 25px;
+}
+
+#about {
+	height: 90vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+/* images */
+#img-desk {
+	margin-top: 50px;
 }
