@@ -5,4 +5,10 @@ $(function() {
 	$('.menu-icon').click(function() {
 		$('.navbar-links').slideToggle('fast');
 	});
+
+	$('.navbar-links a').click(function() {
+		if ($('.menu-icon').is(':visible')) {
+			$('.navbar-links').slideToggle('fast');
+		}
+	});
 });
