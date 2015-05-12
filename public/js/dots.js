@@ -6,13 +6,9 @@ var DotGenerator = (function($) {
 	}
 
 	function randomRGB() {
-		var r = randInt(0, 255);
-		var g = randInt(0, 255);
-		var b = randInt(0, 255);
-
-		r = r.toString(16);
-		g = g.toString(16);
-		b = b.toString(16);
+		var r = randInt(0, 255).toString(16);
+		var g = randInt(0, 255).toString(16);
+		var b = randInt(0, 255).toString(16);
 
 		return '#' + r + g + b;
 	}
