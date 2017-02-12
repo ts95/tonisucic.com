@@ -15,32 +15,32 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/source\/icons\/Facebook-White.svg": {
+	"\/source\/icons\/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/icons\/Facebook-White.svg",
-		"oF": 1,
+		"oAP": "\/build\/icons\/facebook.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/icons\/GitHub-White.svg": {
+	"\/source\/icons\/github.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/icons\/GitHub-White.svg",
-		"oF": 1,
+		"oAP": "\/build\/icons\/github.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/icons\/LinkedIn-White.svg": {
+	"\/source\/icons\/linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/icons\/LinkedIn-White.svg",
-		"oF": 1,
+		"oAP": "\/build\/icons\/linkedin.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -127,7 +127,7 @@
 	"displayValue": "tonisucic.com",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge",
-	"lastBuiltDate": 508551654
+	"lastBuiltDate": 508588565
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1462,7 +1462,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
