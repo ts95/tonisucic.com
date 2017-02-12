@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>LinkedIn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LinkedIn" transform="translate(1.000000, 1.000000)">
+            <path d="M5.954,17 L3.004,17 L3.004,7.508 L5.954,7.508 L5.954,17 Z M4.449,6.151 C3.498,6.151 2.729,5.38 2.729,4.431 C2.729,3.482 3.499,2.712 4.449,2.712 C5.397,2.712 6.168,3.483 6.168,4.431 C6.168,5.38 5.397,6.151 4.449,6.151 Z M17.004,17 L14.056,17 L14.056,12.384 C14.056,11.283 14.036,9.867 12.523,9.867 C10.988,9.867 10.752,11.066 10.752,12.304 L10.752,17 L7.804,17 L7.804,7.508 L10.634,7.508 L10.634,8.805 L10.674,8.805 C11.068,8.059 12.03,7.272 13.465,7.272 C16.452,7.272 17.004,9.238 17.004,11.794 L17.004,17 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M18.5,20 L1.5,20 C0.672,20 0,19.328 0,18.5 L0,1.5 C0,0.672 0.672,0 1.5,0 L18.5,0 C19.328,0 20,0.672 20,1.5 L20,18.5 C20,19.328 19.328,20 18.5,20 Z" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>
