@@ -12,9 +12,7 @@ class Tick {
 
     public static ticks(cb: (tick: Tick) => void): number {
         cb(Tick.get());
-        return setInterval(function() {
-            cb(Tick.get());
-        }, 1000);
+        return setInterval(() => cb(Tick.get()), 1000);
     }
 
     public get secondHandAngle(): number {
