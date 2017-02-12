@@ -1,0 +1,85 @@
+@import './clock';
+
+$phone-screen-width: 768px;
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #161a1d;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+
+a {
+    color: #ddd;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+#middle-section {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+    justify-content: center;
+
+    @media (max-width: $phone-screen-width) {
+        flex-direction: column;
+    }
+
+    #clock {
+        margin: 40px;
+
+        @media (max-width: $phone-screen-width) {
+            margin-top: -20px;
+        }
+    }
+
+    #info {
+        width: 400px;
+        font-size: 1.5rem;
+
+        @media (max-width: $phone-screen-width) {
+            width: inherit;
+        }
+
+        & h1,
+        & div {
+            margin: 0;
+            font-weight: 300;
+        }
+
+        hr {
+            width: 50px;
+            margin-left: 5px;
+            border: none;
+            background: white;
+            height: 3px;
+        }
+
+        & .social-media {
+            margin-top: 20px;
+            flex: 1;
+
+            & a {
+                flex-direction: row;
+                flex-wrap: wrap;
+                text-decoration: none;
+                margin-right: 10px;
+
+                & img {
+                    width: 50px;
+                }
+            }
+        }
+
+        & .bottom {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+    }   
+}
