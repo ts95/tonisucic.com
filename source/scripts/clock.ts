@@ -14,18 +14,6 @@ class Tick {
         cb(Tick.get());
         return setInterval(() => cb(Tick.get()), 1000);
     }
-
-    public get secondHandAngle(): number {
-        return this.seconds * 6;
-    }
-
-    public get minuteHandAngle(): number {
-        return this.minutes * 6;
-    }
-
-    public get hourHandAngle(): number {
-        return (this.hours * 30) + (this.minutes / 2);
-    }
 }
 
 export class Clock {
@@ -54,9 +42,9 @@ export class Clock {
     }
 
     private setAngles(tick: Tick) {
-        this.secondHandAngle = tick.secondHandAngle;
-        this.minuteHandAngle = tick.minuteHandAngle;
-        this.hourHandAngle = tick.hourHandAngle;
+        this.secondHandAngle = tick.seconds * 6;
+        this.minuteHandAngle = tick.minutes * 6;
+        this.hourHandAngle = (tick.hours * 30) + (tick.minutes / 2);
     }
 
     private set secondHandAngle(degrees: number) {
